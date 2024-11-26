@@ -1,0 +1,54 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-card {
+  background-color: white;
+  height: 700px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  margin-top: 20px;
+  font-size: 40px;
+  color: #a35200;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #334155;
+}
+.Toss-image {
+  height: 250px;
+  width: 250px;
+}
+.toss-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+ padding-top: 30px;
+}
+.count {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 10px;
+
+}
+.btn {
+  background-color: #f9d423;
+  border-width: 0px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Roboto";
+}
